@@ -1,0 +1,15 @@
+{
+  "name": "readme_gen",
+  "version": "1.0.0",
+  "description": "## Description This project is a node.js program that generates a boilerplate README for Web Dev Projects!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}

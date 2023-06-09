@@ -4,8 +4,18 @@
 This project is a node.js program that generates a boilerplate README for Web Dev Projects!
 
 ## Table of Contents 
-- [User Story] (#User Story )
-- 
+
+* [Installation](#installation)
+
+* [Usage](#usage)
+
+* [License](#license)
+
+* [Contributing](#contributing)
+
+* [Tests](#tests)
+
+* [Questions](#questions)
 
 ## User Story 
 * AS A developer

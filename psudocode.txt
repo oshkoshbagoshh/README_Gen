@@ -1,0 +1,22 @@
+*Module 9 README Generator Psuedo*
+
+- prompt the user for info about their README
+    - use inquirer package to prompt user to answer our questions
+        - store our questions in an array
+    - prompt user to input title, desc, installation, usage, contribution
+    and test instructions then display these under their section
+    - prompt user to choose a license from a list of options
+        - generate a badge for the license, add it near the top
+        - Badge link from https://shields.io/category/license
+    - prompt the user to enter their GitHub username and display under 
+    Questions section
+    - prompt user to enter their email, display under Questions section
+
+- take the users answers and save them
+    - use writeToFile to generate(name of file README.md, and the data)
+- put the users answers into our markdown template
+    - make the markdown template and plug in the users answers
+        - Include a table of contents that links to the sections
+        - include link to github and plugin the users username
+
+        - Template literal to plugin info for the README
