@@ -1,10 +1,27 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  let licenseLink = '';
+
+  switch (license) {
+    case 'MIT':
+      licenseLink = 'https://shields.io/badge/license-MIT-green'
+      break;
+    case 'Apache':
+       licenseLink = 'https://shields.io/badge/license-Apache-blue'
+      break;
+
+    default: 
+      licenseLink = '' //use this in case they don't select one of the above licenses license
+      break;
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -17,27 +34,47 @@ function generateMarkdown(response) {
 ## Description
   * ${response.description}
 
+## Table of Contents
+
+* [Installation](#Installation)
+
+* [Usage](#Usage)
+
+* [License](#License)
+
+* [Contributing](#Contributing)
+
+* [Tests](#Tests)
+
+* [Questions](#questions)
+
 ## Installation
   * ${response.installation}
 
 ## Usage 
   * ${response.usage}
 
-## Contribution
+## Contributing
   * ${response.contribution}
 
-  * Project was created by ${response.githubusername}
+  * Project was created by (https://github.com/${response.githubusername})
   
-## Testing
+## Tests
   * ${response.testing}
-
-  * Please direct all questions to ${response.email}. 
 
 
 ## License 
 * ${response.license}
 
-`;
+
+
+
+## Questions
+* Please direct all questions to (${response.email}). 
+
+
+`; // include Link to License variable above 
+
 }
 
 module.exports = generateMarkdown;
