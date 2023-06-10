@@ -16,7 +16,7 @@ inquirer.prompt (questions)
     .then ((response) => {
         console.log(response)
 
-        fs.writeFile('READMETEST1.md',generateMarkdown(response),function(err){
+        fs.writeFile('README.md',generateMarkdown(response),function(err){
             err ? console.log(err) : console.log("Success!");
         })
 
