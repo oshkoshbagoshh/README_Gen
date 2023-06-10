@@ -1,7 +1,7 @@
 # README_Gen
 
 ## Description
-This project is a node.js program that generates a boilerplate README for Web Dev Projects!
+This project is a node.js program that generates a boilerplate README for Web Dev Projects! Check out the video below to get a demo on functionality.
 
 ## Table of Contents 
 
@@ -16,7 +16,7 @@ This project is a node.js program that generates a boilerplate README for Web De
 * [Tests](#tests)
 
 * [Questions](#questions)
-
+<!-- 
 ## User Story 
 * AS A developer
 * I WANT a README generator
@@ -38,7 +38,7 @@ This project is a node.js program that generates a boilerplate README for Web De
 * THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 * WHEN I click on the links in the Table of Contents
 * THEN I am taken to the corresponding section of the README
-
+ -->
 ## Installation
 - To install this app, just download the code and run it in node via the terminal.
 - The packages / technologies used are:
@@ -51,18 +51,32 @@ This project is a node.js program that generates a boilerplate README for Web De
 
 
 ```sh
-node READMEGEN.js
+node index.js
+```
+
+After answering the questions, check out the readme:
+```sh
+open README.md
 ```
 
 
 
 ## Usage 
-TODO: - insert link to video here: 
+### Video Link:
+[Walkthrough Video](https://drive.google.com/file/d/1rU_oM_6hU2n-EJFPa3puRJDWe51ZPBlk/view?usp=sharing)
 
 ## Credits 
-
+AJ Javadi
+Northwestern
+EDX
 ## License 
+N/A
 
 ## Video Link:
 (https://drive.google.com/file/d/1rU_oM_6hU2n-EJFPa3puRJDWe51ZPBlk/view?usp=sharing)
 
+## Issues
+- Currently having a bug with the badges not properly displaying. This will be fixed in version 2.0.
+
+## Questions 
+Feel free to reach out with questions at [myEmail](amirjavadi25@gmail.com)
